@@ -1,0 +1,8 @@
+<div class="container border rounded text-center my-4 col-6">
+  <h1 class="py-2">Stupid coaching</h1>
+  <h5 class="bg-body-tertiary rounded py-2">Question: <%= @question %></h5>
+</div>
+<div class="container p-2 mb-2 bg-primary-subtle rounded mt-2 text-center col-6">
+  <h5><%= @answer %></h5>
+  <%= link_to "Back to questions", ask_path %>
+</div>
